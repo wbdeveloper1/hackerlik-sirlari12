@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiberxavfsizlik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kiberxavfsizlik</h1>
+    <p>Internetda xavfsiz bo‘lish uchun muhim bilimlar</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Bosh sahifa</a></li>
+      <li><a href="darslar.html">Darslar</a></li>
+      <li><a href="kiberxavfsizlik.html">Kiberxavfsizlik</a></li>
+      <li><a href="xavfsizlik-qoidalari..html">Xavfsizlik qoidalari</a></li>
+      <li><a href="qollanma.html">Qo‘llanmalar</a></li>
+      <li><a href="boglanish.html">Bog‘lanish</a></li>
+      <li><a href="yangiliklar.html">Yangiliklar</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Kiberxavfsizlik bo‘yicha video dars</h2>
+      <p>Quyidagi videoda sizga kiberxavfsizlikning asosiy tushunchalari va muhim maslahatlar haqida ma’lumotlar beriladi:</p>
+      <div style="text-align:center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7Q1ZqC4DptQ?si=E1ThEzBj9QS1UfNN" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <button id="modeToggle">🌙 Rejimni o‘zgartirish</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hakkerlik sirlari. Barcha huquqlar himoyalangan.</p>
+  </footer>
+
+  <script>
+    document.getElementById('modeToggle').addEventListener('click', () => {
+      document.body.classList.toggle('light-mode');
+    });
+  </script>
+</body>
+</html>
