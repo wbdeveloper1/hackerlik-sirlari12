@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Qo‘llanmalar | Hakkerlik sirlari</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header {
+            background-color: #161b22;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        nav {
+            background-color: #21262d;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #58a6ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #1f6feb;
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            background-color: #161b22;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            color: #58a6ff;
+        }
+
+        ul {
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #161b22;
+            margin-top: 30px;
+        }
+
+        button#modeToggle {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #21262d;
+            color: #58a6ff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button#modeToggle:hover {
+            background-color: #30363d;
+        }
+
+        body.light-mode {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        body.light-mode header,
+        body.light-mode nav,
+        body.light-mode footer,
+        body.light-mode section {
+            background-color: #f0f0f0;
+            color: #000;
+        }
+
+        body.light-mode nav ul li a {
+            color: #0066cc;
+        }
+
+        body.light-mode nav ul li a:hover {
+            color: #003366;
+        }
+
+        body.light-mode button#modeToggle {
+            background-color: #e0e0e0;
+            color: #000;
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Qo‘llanmalar</h1>
+        <p>IT va xavfsizlik sohasida foydali boshlang‘ich qo‘llanmalar</p>
+        <button id="modeToggle">🌙 Rejimni o‘zgartirish</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Bosh sahifa</a></li>
+            <li><a href="darslar.html">Darslar</a></li>
+            <li><a href="kiberxavfsizlik.html">Kiberxavfsizlik</a></li>
+            <li><a href="xavfsizlik-qoidalari.html">Xavfsizlik qoidalari</a></li>
+            <li><a href="qollanmalar.html">Qo‘llanmalar</a></li>
+            <li><a href="boglanish.html">Bog‘lanish</a></li>
+            <li><a href="yangiliklar.html">Yangiliklar</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>💡 Boshlovchilar uchun qo‘llanma</h2>
+            <p>Quyidagi yo‘riqnomalar orqali siz IT, kiberxavfsizlik va hackerlik asoslarini o‘rganishingiz mumkin:</p>
+            <ul>
+                <li><strong>Kuchli parol yaratish:</strong> Parolingiz kamida 12 ta harf, raqam va belgilarni o‘z ichiga olsin. Misol: <code>D@rkN3t2025!</code></li>
+                <li><strong>Virtual mashqlar uchun saytlar:</strong> <a href="https://tryhackme.com" target="_blank">TryHackMe</a> va <a href="https://hackthebox.com" target="_blank">Hack The Box</a> orqali real simulyatsiyalarni sinab ko‘ring.</li>
+                <li><strong>Linux buyrug‘lari asoslari:</strong> Terminalga odat oling. Masalan, <code>ls</code>, <code>cd</code>, <code>mkdir</code>, <code>nano</code>.</li>
+                <li><strong>Phishing nima?</strong> Firibgar e-mail orqali sizdan parol yoki ma'lumot olishga harakat qilish. Har doim manzillarni tekshiring!</li>
+                <li><strong>VPN va TOR:</strong> VPN — sizning IP manzilingizni yashiradi. TOR esa internetda anonim yurishni ta'minlaydi.</li>
+                <li><strong>Google Hacking:</strong> Maxsus izlash: <code>site:edu filetype:pdf "cyber security"</code> kabi qidiruvlar orqali maxsus ma’lumotlarni topish mumkin.</li>
+                <li><strong>Wi-Fi xavfsizligi:</strong> Routeringizda <code>WPA2 yoki WPA3</code> shifrlashni yoqing, parolni har oyda yangilang.</li>
+            </ul>
+            <p>Bu faqat boshlanishi! Darslar bo‘limida siz yanada ko‘proq amaliyotlar bilan tanishasiz.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hakkerlik sirlari. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.body.classList.add('light-mode');
+            }
+
+            const modeToggleBtn = document.getElementById('modeToggle');
+            if (modeToggleBtn) {
+                modeToggleBtn.addEventListener('click', () => {
+                    document.body.classList.toggle('light-mode');
+                    const currentTheme = document.body.classList.contains('light-mode') ? 'light' : 'dark';
+                    localStorage.setItem('theme', currentTheme);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
